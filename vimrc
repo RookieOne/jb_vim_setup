@@ -1,3 +1,7 @@
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+
 filetype on " Automatically Detact file types
 filetype indent on
 
