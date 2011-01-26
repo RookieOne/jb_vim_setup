@@ -98,6 +98,8 @@ hi link rubyConditional jb_Control
 " Rails
 hi link rubyRailsUserClass jb_ClassName
 hi link rubyRailsRakeMethod jb_Control
+hi link rubyRailsARCallbackMethod jb_Control
+hi link rubyRailsARMethod jb_Control
 
 " ERB
 hi link erubyDelimiter jb_Subtle 
