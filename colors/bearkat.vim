@@ -11,7 +11,7 @@ hi jb_String guifg=#698B5D
 hi jb_Number guifg=#AD9760
 hi jb_Func guifg=#FAFAFA
 hi jb_Comment guifg=#216B10
-hi jb_Constant guifg=#9A1E14 gui=bold
+hi jb_Constant guifg=#9A1E14 
 hi jb_Class guifg=#3b90ae
 hi jb_ClassName guifg=#FAFAFA
 hi jb_LocalVar guifg=#FAFAFA
@@ -100,6 +100,9 @@ hi link rubyRailsUserClass jb_ClassName
 hi link rubyRailsRakeMethod jb_Control
 hi link rubyRailsARCallbackMethod jb_Control
 hi link rubyRailsARMethod jb_Control
+hi link rubyRailsFilterMethod jb_Helper
+hi link rubyRailsRenderMthod jb_Helper
+hi link rubyRailsMethod jb_Helper
 
 " ERB
 hi link erubyDelimiter jb_Subtle 
@@ -121,3 +124,18 @@ hi link cssValueNumber jb_Number
 hi link cssColor jb_Number
 hi link cssUIAttr jb_Normal
 hi link cssComment jb_Comment
+
+" NERD Tree
+hi link treePart jb_Subtle
+hi link treeDir jb_Control
+hi link treePartFile jb_Class
+hi link treeClosable jb_Helper
+hi link treeOpenable jb_Comment
+
+" Haml
+hi link hamlClass jb_Tag
+hi link hamlClassChar jb_Tag
+hi link hamlRailsHelperMethod jb_Helper
+hi link hamlRubyOutputChar jb_Subtle
+hi link hamlId jb_Tag
+hi link hamlRubyChar jb_Subtle
