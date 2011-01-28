@@ -139,3 +139,20 @@ hi link hamlRailsHelperMethod jb_Helper
 hi link hamlRubyOutputChar jb_Subtle
 hi link hamlId jb_Tag
 hi link hamlRubyChar jb_Subtle
+
+" Javascript
+hi link javaScriptStringD jb_String
+hi link javaScriptLineComment jb_Comment
+hi link javaScriptBraces jb_Normal
+hi link javaScriptConditional jb_Control
+hi link javaScriptIdentifier jb_Class
+hi link javaScriptRailsFunction jb_Control
+hi link javaScriptFunction jb_Class
+hi link javaScriptStatement jb_Control
+hi link javaScriptRepeat jb_Control
+hi link javaScriptGlobal jb_Normal
+hi link JavaScriptStringS jb_String
+hi link javaScriptComment jb_Comment
+hi link javaScriptNull jb_Boolean
+hi link javaScriptBoolean jb_Boolean
+hi link javaScript jb_Normal
