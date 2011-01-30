@@ -42,6 +42,7 @@ set listchars=tab:▸\ ,eol:¬
 
 " Show highlighting groups for current word
 nmap <C-S-P> :call <SID>SynStack()<CR>
+nmap <leader>s :call <SID>SynStack()<CR>
 function! <SID>SynStack()
   if !exists("*synstack")
     return
@@ -52,7 +53,6 @@ endfunc
 set guifont=Menlo\ Regular:h18
 
 nmap <leader>h :call HexHighlight()<CR>
-
 
 ",v brings up my .vimrc
 ",V reloads it -- making all changes active (have to save first)
@@ -73,4 +73,7 @@ nnoremap <silent><A-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
 
 set wm=2
 
+
+
 colo bearkat
+

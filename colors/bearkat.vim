@@ -24,6 +24,8 @@ hi jb_Exception guifg=#f77712
 hi jb_Subtle guifg=#646666
 hi jb_Helper guifg=#CC261B
 hi jb_Tag guifg=#3b90ae
+hi jb_Good guifg=#42D921
+hi jb_Bad guifg=#CC261B
 
 " General
 
@@ -108,6 +110,7 @@ hi link rubyRailsMethod jb_Helper
 hi link erubyDelimiter jb_Subtle 
 hi link erubyRailsHelperMethod jb_Helper
 hi link erubyRailsRenderMethod jb_Helper 
+hi link erubyRailsUserClass jb_Constant
 
 " CSS
 hi link cssTagName jb_Control
@@ -156,3 +159,13 @@ hi link javaScriptComment jb_Comment
 hi link javaScriptNull jb_Boolean
 hi link javaScriptBoolean jb_Boolean
 hi link javaScript jb_Normal
+
+" Git
+hi link gitcommitDiscarded jb_Subtle
+hi link gitcommitComment jb_Comment
+hi link gitcommitOnBranch jb_Comment
+hi link gitcommitHeader jb_Class
+hi link gitcommitDiscardedType jb_Bad
+hi link gitcommitDiscardedFile jb_Bad
+hi link gitcommitSelectedType jb_Good
+hi link gitcommitSelectedFile jb_Good
